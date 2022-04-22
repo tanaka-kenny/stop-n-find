@@ -1,0 +1,35 @@
+<ion-content class="ion-padding">
+  <h1 class="title ion-text-center">
+    Stop & Find
+  </h1>
+  <h1 class="login ion-text-center">
+    Login
+  </h1>
+
+  <form>
+    <ion-item class="ion-no-padding">
+      <ion-label position="stacked" class="label">Email</ion-label>
+      <ion-input 
+        class="placeholder" placeholder="Enter your email" type="email"></ion-input>
+    </ion-item>
+    
+    <ion-item class="ion-no-padding">
+      <ion-label position="stacked" class="label">Password</ion-label>
+      <ion-input
+        class="placeholder" placeholder="Enter your password" type="password"></ion-input>
+    </ion-item>
+    <ion-button
+      type="submit"
+      expand="block" class="login-btn ion-margin-top"
+      [routerLink]="'/folder/Inbox'">Login</ion-button>
+  </form>
+ 
+  
+
+  <p class="sign-up-text">Don't have an account yet? 
+    <span class="sign-up">
+      <a>Sign up</a>
+    </span>
+  </p>
+  
+</ion-content>

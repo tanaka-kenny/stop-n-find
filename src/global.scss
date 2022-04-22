@@ -24,3 +24,34 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.title {
+    font-size: 35px;
+    color: var(--ion-color-primary);
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 16px;
+    color: var(--ion-color-primary-shade);
+}
+
+.placeholder {
+    font-size: 14px;
+}
+
+.login-btn {
+    color: var(--ion-color-secondary-contrast);
+    font-weight: bold;
+}
+
+.sign-up-text {
+    color: grey;
+    font-size: 16px;
+}
+
+.sign-up {
+    font-size: 16px;
+    font-weight: bold;
+}

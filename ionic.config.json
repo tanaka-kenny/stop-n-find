@@ -1,0 +1,8 @@
+{
+  "name": "stop-n-find",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "23f5b6af"
+}

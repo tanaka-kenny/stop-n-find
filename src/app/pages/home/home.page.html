@@ -1,17 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>Find Bus</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-item class="ion-padding-horizontal">
-    <ion-icon name="navigate-outline" color="primary"></ion-icon>     
-    <ion-input placeholder="    Where are you going?"></ion-input>
-  </ion-item>
+
+  <div class="header-container ion-padding">
+    <div class="menu-btn">
+      <ion-menu-button></ion-menu-button>
+    </div>
+    <div class="search-form ion-padding-start">
+      <ion-icon name="navigate-outline" color="primary"></ion-icon>     
+      <ion-input placeholder="    Where are you going?"></ion-input>
+    </div>
+  </div>
 
   <div id="map"></div>
 </ion-content>

@@ -4,8 +4,7 @@ import * as L from 'leaflet';
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
-  styleUrls: ['./home.page.scss'],
-  // encapsulation: ViewEncapsulation.None
+  styleUrls: ['./home.page.scss']
 })
 export class HomePage implements OnInit, OnDestroy {
   map: L.Map;

@@ -1,14 +1,40 @@
-ion-item {
-  border: 1px solid var(--ion-color-primary);
-  border-radius: 11px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
+.header-container {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  display: flex;
+  background-color: rgba(#e57c1e,.3);
+  border: 1px solid white;
+  border-radius: 15px;
+  z-index: 4;
+
+  .menu-btn {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .search-form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 10px;
+
+    ion-icon {
+      font-size: 20px;
+    }
+  }
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: 2px solid rgba(0,0,0,0.2);
+  background-clip: padding-box;
+  display: none;
 }
 
 #map {
   height: 100%;
   width: 100vw;
   position: absolute;
+  z-index: 0;
 }
